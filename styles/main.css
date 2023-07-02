@@ -1,0 +1,187 @@
+@font-face {
+    font-family: 'Inter var';
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: block;
+    src: url(/fonts/Inter-roman.latin.var.woff2) format('woff2');
+  }
+  @font-face {
+    font-family: 'Inter var';
+    font-style: italic;
+    font-weight: 100 900;
+    font-display: block;
+    src: url(/fonts/Inter-italic.latin.var.woff2) format('woff2');
+    font-named-instance: 'Italic';
+  }
+  :root {
+    --foreground-rgb: 0, 0, 0;
+    --background-start-rgb: 214, 219, 220;
+    --background-end-rgb: 255, 255, 255;
+  }
+  
+  body {
+    color: rgb(var(--foreground-rgb));
+    background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+    font-family: 'Inter var', system-ui, -apple-system, BlinkMacSystemFont,
+      'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif,
+      'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    -webkit-font-smoothing: subpixel-antialiased;
+    font-feature-settings: 'case' 1, 'cpsp' 1, 'dlig' 1, 'cv01' 1, 'cv02',
+      'cv03' 1, 'cv04' 1;
+    font-variation-settings: 'wght' 350;
+    font-variant: common-ligatures contextual;
+    letter-spacing: -0.02em;
+  }
+  b,
+  a{
+    color:white;
+  }
+  strong,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-variation-settings: 'wght' 650;
+  }
+  h1 {
+    font-variation-settings: 'wght' 850;
+  }
+  h2 {
+    font-variation-settings: 'wght' 750;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --foreground-rgb: 255, 255, 255;
+      --background-start-rgb: 0, 0, 0;
+      --background-end-rgb: 0, 0, 0;
+    }
+  }
+  @media screen and (min-device-pixel-ratio: 1.5),
+    screen and (min-resolution: 1.2dppx) {
+    body {
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+  }
+  
+  details summary {
+    cursor: pointer;
+  }
+  
+  img.next-image {
+    margin: 0;
+  }
+  
+  .prose a {
+    color: #ffffff;
+    line-clamp: 2;
+  }
+  
+  .nav-line .nav-link {
+    color: #69778c;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    gap:100px;
+    align-items: center;
+  }
+
+
+  .nav {
+    padding: 20px;
+    color: white;
+  }
+  .nav a::before{
+    display: block;
+    margin-bottom: 10px;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  .nav a:hover {
+    color: #444;
+  }
+  .nav:visited {
+    text-decoration: #444;
+  }
+  .nav a::after{
+    color:white;
+  }
+  .nav a:hover::before {
+    color: #444;
+  }
+
+
+  @media (max-width: 750px) {
+    .text-align-center {
+      text-align: left;
+      padding-inline: 50px;
+      color: white;
+    }
+  }
+  .text-align-center {
+    text-align: left;
+    color: white;
+  }
+  .text-align-center {
+    @media (min-width: 768px) {
+      text-align: justify;
+      padding-inline: 425px;
+      color: white;
+    }
+  }
+
+
+  .social-links {
+    text-align: center;
+  }
+  
+  .social-links a {
+    display: block;
+    margin-bottom: 10px;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  .social-icon {
+    margin-right: 6px;
+  }
+  .social-links a:hover {
+    color: #444;
+  }
+
+  .centerAlign {
+    display:grid;
+    justify-items: left;
+  }
+
+  .centerAlignImage {
+    display:grid;
+    justify-items: center;
+  }
+
+
+  .blogtext{
+    text-decoration: none;
+    transition: color 0.3s ease;
+    color: white;
+    display: block;
+  }
+  .blogtext:hover {
+    color: #444;
+  }
+
+
+  .hr-line {
+    width: 662px;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  
+  
