@@ -23,12 +23,12 @@ export default function Page() {
           <Image width={400} height={400} src={MyImage1} alt="Image1" />
         </div>
         <br/><br/>
-        <div class="social-links">
-          <a href="https://www.linkedin.com/in/tanuj-bordikar-28b127220/" target="_blank" rel="noopener noreferrer"><span class="social-icon">↗</span>connect on linkedIn</a>
-          <a href="https://twitter.com/tanuj_b_" target="_blank" rel="noopener noreferrer"><span class="social-icon">↗</span>follow me on twitter</a>
-          <a href="https://github.com/tanujbordikar" target="_blank" rel="noopener noreferrer"><span class="social-icon">↗</span>check out my gitHub</a>
-          <a href="https://www.instagram.com/tanuj_b_" target="_blank" rel="noopener noreferrer"><span class="social-icon">↗</span>follow me on instagram</a>
-          <a href="mailto:tanujbordikar@gmail.com?subject=Portfolio's%20Connection%20Inquiry"><span class="social-icon">📧</span>mail me</a>
+        <div className="social-links">
+          <a href="https://www.linkedin.com/in/tanuj-bordikar-28b127220/" target="_blank" rel="noopener noreferrer"><span className="social-icon">↗</span>connect on linkedIn</a>
+          <a href="https://twitter.com/tanuj_b_" target="_blank" rel="noopener noreferrer"><span className="social-icon">↗</span>follow me on twitter</a>
+          <a href="https://github.com/tanujbordikar" target="_blank" rel="noopener noreferrer"><span className="social-icon">↗</span>check out my gitHub</a>
+          <a href="https://www.instagram.com/tanuj_b_" target="_blank" rel="noopener noreferrer"><span className="social-icon">↗</span>follow me on instagram</a>
+          <a href="mailto:tanujbordikar@gmail.com?subject=Portfolio's%20Connection%20Inquiry"><span className="social-icon">📧</span>mail me</a>
         </div>
       </Layout>
     </div>
