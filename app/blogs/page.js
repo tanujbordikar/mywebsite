@@ -28,7 +28,7 @@ export default async function IndexPage() {
               {new Date(post._createdAt).toISOString().split("T")[0]}
             </div>
             <Link
-              href={`/post/${post.slug.current}`}
+              href={`/blogs/${post.slug.current}`}
               prefetch
               className="blogtext"
             >
@@ -41,7 +41,7 @@ export default async function IndexPage() {
               <p>
                 {post.overview}
               </p>
-              <hr class="hr-line" />
+              <hr className="hr-line" />
             </Link>
           </li>
         ))}

@@ -1,4 +1,3 @@
-// import '../styles/globals.css'
 import '../styles/main.css'
 import { Inter } from 'next/font/google'
 
