@@ -14,8 +14,8 @@
   h3,
   h4,
   h5,
-  h6 {
-    font-variation-settings: 'wght' 650;
+  h3 {
+    font-variation-settings: 'wght' 750;
   }
 
   h1 {
@@ -127,4 +127,35 @@
     width: 662px;
     height: 1px;
     background-color: #444;
+  }
+
+  .content-div {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+  }
+
+  .content-div:hover {
+    background-color: #444;
+  }
+
+  button {
+    position: relative;
+    transform: translate(+0%, +50%);
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 16px;
+    padding: 8px 15px;
+    cursor: pointer;
+    border: thin;
+    border-radius: 5px;
+    margin-right: 8px;
+  }
+
+  button:hover {
+    background-color: black;
+    color: white;
   }

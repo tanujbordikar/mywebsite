@@ -4,7 +4,7 @@ import Layout from '@/components/Layout';
 import '../../styles/main.css';
 
 async function getData() {
-  const query = `*[_type == "post"]`;
+  const query = `*[_type == "post"] | order(_createdAt desc)`;
 
   const data = await client.fetch(query);
 
@@ -19,7 +19,8 @@ export default async function IndexPage() {
       <h1 className="container">
         All Blogs
       </h1>
-      <hr className="hr-line" />
+      <br/>
+      {/* <hr className="hr-line" /> */}
 
       <ul className="text-align-center">
         {data.map((post) => (
@@ -41,7 +42,7 @@ export default async function IndexPage() {
               <p>
                 {post.overview}
               </p>
-              <hr className="hr-line" />
+              {/* <hr className="hr-line" /> */}
             </Link>
           </li>
         ))}

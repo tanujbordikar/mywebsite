@@ -22,9 +22,8 @@ export default async function SlugPage({ params }) {
         <Image
           src={urlFor(value).url()}
           alt="Image"
-          className="rounded-lg"
-          width={500}
-          height={400}
+          width={300}
+          height={175}
         />
       ),
     },
@@ -45,6 +44,7 @@ export default async function SlugPage({ params }) {
           </div>
         </header>
         <div className="centerAlign">
+        <br/>
           <PortableText
             value={data.content}
             components={PortableTextComponent}
