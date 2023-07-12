@@ -41,7 +41,7 @@ const Projects = () => {
                 <h3># Travelogue</h3>
                 <p>An MERN-based Application.</p>
                 <div>
-                  <a href="/projects">
+                  <a target="blank" href="https://travelogue-seven.vercel.app">
                     <button>
                       Demo
                     </button>
