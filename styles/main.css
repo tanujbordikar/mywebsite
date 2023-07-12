@@ -131,12 +131,11 @@
   .blogtext {
     text-decoration: none;
     transition: color 0.3s ease;
-    /* color: white; */
     display: block;
   }
 
   .blogtext:hover {
-    color: #cacaca;
+    color: #666;
   }
 
   .hr-line {
