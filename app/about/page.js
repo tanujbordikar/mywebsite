@@ -14,7 +14,7 @@ const About = () => {
             <ul className='grid justify-center'>
               <li className='flex items-center mr-4 blogtext'>
                 <FaReact className='mr-2' />
-                <span style={{ fontSize: '1.75em' }}> React</span>
+                <span style={{ fontSize: '1.75em' }}> ReactJS</span>
               </li>
               <li className='flex items-center mr-4 blogtext'>
                 <FaPython className='mr-2' />
@@ -26,23 +26,31 @@ const About = () => {
               </li>
               <li className='flex items-center mr-4 blogtext'>
                 <SiTensorflow className='mr-2' />
-                <span style={{ fontSize: '1.75em' }}> Tensorflow</span>
-              </li>
-              <li className='flex items-center mr-4 blogtext'>
-                <FaCode className='mr-2' />
-                <span style={{ fontSize: '1.75em' }}> OpenCV</span>
+                <span style={{ fontSize: '1.75em' }}> Tensor</span>
               </li>
               <li className='flex items-center mr-4 blogtext'>
                 <FaCode className='mr-2' />
                 <span style={{ fontSize: '1.75em' }}> Keras</span>
               </li>
+              <li className='flex items-center mr-4 blogtext'>  
+                <FaCode className='mr-2' />
+                <span style={{ fontSize: '1.75em' }}> OpenCV</span>
+              </li>
+              <li className='flex items-center mr-4 blogtext'>
+                <FaCode className='mr-2' />
+                <span style={{ fontSize: '1.75em' }}> NodeJS</span>
+              </li>
+              <li className='flex items-center mr-4 blogtext'>
+                <FaReact className='mr-2' />
+                <span style={{ fontSize: '1.75em' }}> NextJS</span>
+              </li>
+              <li className='flex items-center mr-4 blogtext'>
+                <FaDatabase className='mr-2' />
+                <span style={{ fontSize: '1.75em' }}> MongoDB</span>
+              </li>
               <li className='flex items-center mr-4 blogtext'>
                 <FaHtml5 className='mr-2' />
                 <span style={{ fontSize: '1.75em' }}> HTML</span>
-              </li>
-              <li className='flex items-center mr-4 blogtext'>
-                <FaCss3 className='mr-2' />
-                <span style={{ fontSize: '1.75em' }}> CSS</span>
               </li>
               <li className='flex items-center mr-4 blogtext'>
                 <FaJs className='mr-2' />
@@ -55,10 +63,6 @@ const About = () => {
               <li className='flex items-center mr-4 blogtext'>
                 <FaGithub className='mr-2' />
                 <span style={{ fontSize: '1.75em' }}> GitHub</span>
-              </li>
-              <li className='flex items-center mr-4 blogtext'>
-                <FaDatabase className='mr-2' />
-                <span style={{ fontSize: '1.75em' }}> Sanity</span>
               </li>
             </ul>
           </div>
