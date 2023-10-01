@@ -26,7 +26,7 @@ const About = () => {
               </li>
               <li className='flex items-center mr-4 blogtext'>
                 <SiTensorflow className='mr-2' />
-                <span style={{ fontSize: '1.75em' }}> Tensor</span>
+                <span style={{ fontSize: '1.75em' }}> Tensorflow</span>
               </li>
               <li className='flex items-center mr-4 blogtext'>
                 <FaCode className='mr-2' />
